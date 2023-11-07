@@ -2,7 +2,7 @@
 import q from "../data/quizes.json"
 import { ref } from "vue";  
 import { watch } from "vue";
-import Card from "../components/Card.vue"
+import Card from "../components/card.vue"
 
 
 const quizes = ref(q);
@@ -28,8 +28,6 @@ watch(search, () => {
 
 
 <style scoped>
- 
-
  header {
   margin-bottom: 10px;
   margin-top: 30px;
